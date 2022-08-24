@@ -183,3 +183,72 @@ header{
     margin-top: 58px;
     list-style: none;
 }
+.our_process{
+    background-color: white;
+    padding: 100px 0 100px 0;
+    max-width: 1200px;
+    margin: auto;
+}
+.our_process h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    color: #645C55;
+}
+.position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.our_process h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    color: #1B1A1A;
+    margin-bottom: 47px;
+}
+.our_process h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #403E3B;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.our_process p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
+    max-width: 300px;
+}
+.img{
+    display: block;
+    max-width: 117px;
+}
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.text-position{
+    text-align: center;
+}
