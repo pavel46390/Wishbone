@@ -202,7 +202,7 @@ header{
     color: #645C55;
 }
 .position {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -240,15 +240,46 @@ header{
     max-width: 300px;
 }
 .img{
-    display: block;
     max-width: 117px;
 }
-.owl-stage{
+
+.text-position{
+    margin-left: auto;
+    margin-right: auto;
+}
+.owl-item{
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
 }
-.text-position{
-    text-align: center;
+
+.owl-carousel .owl-item img {
+    display: inline-flex;
 }
+.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ECE7E4;
+    margin: 0 5px;
+}
+.owl-dots button.owl-dot.active {
+    background-color: #181818;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.4);
+}
+
+
+
+
