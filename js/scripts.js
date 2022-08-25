@@ -6,12 +6,12 @@ $(document).ready(function(){
             resizable: false,
             draggable: false,
             show: {
-                effect: "blind",
-                duration: 1000
+                effect: "fade",
+                duration: 500
             },
             hide: {
-                effect: "explode",
-                duration: 1000
+                effect: "fade",
+                duration: 500
             }
         });
 
