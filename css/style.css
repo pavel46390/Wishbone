@@ -319,7 +319,83 @@ header {
     top: 50%;
     background: rgba(255, 255, 255, 0.4);
 }
+.ui-icon{
+    text-indent: 0;
+    background-position: 0;
+    overflow: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ui-icon:before {
+    font-family: "Font Awesome 6 Free";
+    content: "/f00d";
+    color: black;
+}
 
+.ui-widget-header {
+    background-color: rgba(236, 231, 228, 0.8);
+}
 
+.ui-widget-content{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.ui-widget-header .ui-icon{
+    background-image: none;
+}
+.ui-button .ui-icon{
+    background-image: none;
+}
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon{
+    background-image: none;
+}
 
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button{
+    color: #FFFFFF;
+}
 
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus{
+    background-color: white;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    transition: 0.5s;
+}
+
+.ui-icon, .ui-widget-content .ui-icon{
+    background-image: none;
+}
+
+.ui-widget-header{
+    color: black;
+    font-size: 18px;
+}
+.ui-widget-content{
+    color: #645C55;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ui-corner-all{
+    border-radius: 12px
+}
+.ui-dialog .ui-dialog-titlebar-close{
+    height: 25px;
+    width: 25px;
+    margin: -14px 0 0 0;
+}
+.dialog{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ui-draggable .ui-dialog-titlebar{
+
+}

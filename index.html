@@ -6,12 +6,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wishbone</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
+    <div id="dialog" title="You'll like it!">
+        <p>Subscribe on our social media to be the first to see our news.</p>
+    </div>
     <div class="container">
         <a href="#" class="logo">
             <img src="images/logo.svg" alt="logo" title="Wishbone+Partners">
@@ -34,7 +39,8 @@
                     <a href="#" title="Contact" class="nav_list_link">Contact</a>
                 </li>
                 <li class="nav_list_item_last">
-                    <a href="#" title="Get template" class="nav_list_link_last">Get template</a>
+
+                        <a id="opener" href="#" title="Get template" class="nav_list_link_last">Get template</a>
                 </li>
             </ul>
         </nav>
@@ -150,10 +156,13 @@
             </li>
         </ul>
     </div>
-
+    <i class="fa-solid fa-xmark"></i>
 </footer>
+<script src="https://kit.fontawesome.com/f2febe4456.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
 
