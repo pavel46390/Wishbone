@@ -323,14 +323,9 @@ header {
     text-indent: 0;
     background-position: 0;
     overflow: inherit;
-
-}
-.ui-icon:before {
-    font-family: "Font Awesome 6 Free";
-    content: "/f057";
-    font-weight: 900;
-    color: black;
-    font-size: 15px;
+    content: url("../images/xmark-solid.svg");
+    width: 17px;
+    height: 17px;
 }
 
 .ui-widget-header {
@@ -392,6 +387,8 @@ header {
     width: 25px;
     margin: -14px 0 0 0;
 }
+
+
 
 
 
