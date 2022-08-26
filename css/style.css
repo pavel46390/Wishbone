@@ -327,18 +327,20 @@ header {
     top: 0;
     left: 0;
 }
-.ui-icon:before {
+.ui-icon, .ui-widget-content .ui-icon:before {
     font-family: "Font Awesome 6 Free";
     content: "/f00d";
+    font-weight: 900;
     color: black;
+    font-size: 15px;
 }
 
 .ui-widget-header {
-    background-color: rgba(236, 231, 228, 0.8);
+    background-color: rgba(236, 231, 228, 0.9);
 }
 
 .ui-widget-content{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 .ui-widget-header .ui-icon{
     background-image: none;
@@ -364,6 +366,7 @@ header {
 }
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
     transition: 0.5s;
+
 }
 
 .ui-icon, .ui-widget-content .ui-icon{
@@ -391,11 +394,6 @@ header {
     width: 25px;
     margin: -14px 0 0 0;
 }
-.dialog{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.ui-draggable .ui-dialog-titlebar{
 
-}
+
+
